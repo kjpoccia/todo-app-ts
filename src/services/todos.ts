@@ -3,10 +3,7 @@ import { apiBaseUrl } from "../constants.ts";
 import { NewTodo } from "../types"
 
 const getAllTodos = async () => {
-  const { data } = await axios.get<[]>(
-    `${apiBaseUrl}/todos`
-  );
-
+  const { data } = await axios.get<[]>(`${apiBaseUrl}/todos`);
   return data;
 };
 

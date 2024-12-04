@@ -1,6 +1,5 @@
 import { Todo, NewTodo } from '../types'
 import { useState } from 'react'
-// import todoService from "../services/todos"
 
 interface ModalProps {
   hideModal: () => void;
